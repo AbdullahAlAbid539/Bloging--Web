@@ -1,0 +1,142 @@
+/* Global section */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* THIS IS HEADER WEB CSS */
+
+header{
+    background-color: black;
+    color: white;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-menu ul li{
+    display: inline;
+    margin-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/* First Section */
+
+.first-section{
+    background-image: url(image/minimalist-photo-black-white-silhouetted-lonely-tree_820340-51806.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10rem 0;
+    text-align: center;
+    padding-right: 30%;
+}
+.first-section h2{
+    font-size: 30px;
+    margin: 10px 0;
+}
+.button-section{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.first-section p{
+    font-size: 15px;
+    margin: 10px 0;
+}
+
+/* About Section CSS */
+
+.fst-sector{
+    text-align: center;
+    padding: 3rem 0;
+}
+.fst-p{
+    color: #6A6A6A;
+    text-align: center;
+}
+.fst-h2{
+    font-size: 40px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+/* Image Section */
+
+.img-section{
+    display: flex;
+    background-image: url(image/download);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    background-size: 300px;
+    justify-content: center;
+    text-align: center;
+
+}
+.img-h2{
+    font-size: 40px;
+    margin: 15px 0;
+    text-align: center;
+}
+
+.btn-section{
+    width: 100px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.div-p{
+    color: #6A6A6A;
+    text-align: center;
+    text-size-adjust: 25px;
+    width: 50%;
+    padding-left: 30%;
+}
+
+/* this is service area and Work Station */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item{
+    padding: 50px;
+    text-align: center;
+}
+.grid-item img{
+    width: 100x;
+    height: 75px;
+}
+ 
+/* This is Conatct Form with Me */
+.lst-section{
+    text-align: center;
+    padding: 10rem 0;
+}
+label{
+    padding-right: 8%;
+}
+.lbl-cn{
+    padding-left: 1%;
+}
+.label-container{
+    padding-left: 2%;
+
+}
+
+/* This Footer Section CSS */
+
+footer{
+    background-color: black;
+    color: white;
+    height: 3rem;
+    text-align: center;
+}
+footer p{
+    padding-top: 20px;
+}
